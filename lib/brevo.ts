@@ -15,7 +15,7 @@ async function sendEmail(payload: EmailPayload): Promise<void> {
       "api-key": process.env.BREVO_API_KEY ?? "",
     },
     body: JSON.stringify({
-      sender: { name: "Nora Events", email: "noraevents.contact@gmail.com" },
+      sender: { name: "Nora Events", email: "contact@noraevents.fr" },
       ...payload,
     }),
   });

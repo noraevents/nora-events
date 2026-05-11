@@ -21,9 +21,9 @@ const preuves = [
   },
   {
     numero: "04",
-    titre: "J'ai travaillé sur des dizaines d'événements — en cuisine et en salle",
+    titre: "~200 mariages vécus de l'intérieur — en cuisine et en salle",
     detail:
-      "Pas en formation. Dans des domaines, des châteaux, des restaurants gastronomiques, des banquets en tente. Des années à observer ce qui fonctionne, ce qui déraille, et pourquoi.",
+      "Pas en formation. Pas en stage. 5 ans en maître d'hôtel dans des domaines, des châteaux, des restaurants gastronomiques. J'ai vu de l'intérieur ce qui fonctionne, ce qui déraille, et pourquoi.",
   },
 ];
 

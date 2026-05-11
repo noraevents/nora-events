@@ -10,7 +10,6 @@ const navLinks = [
   { href: "/mariages", label: "Mariages" },
   { href: "/evenements", label: "Événements" },
   { href: "/methode", label: "La méthode" },
-  { href: "/portfolio", label: "Portfolio" },
   { href: "/tarifs", label: "Tarifs" },
   { href: "/blog", label: "Blog" },
 ];

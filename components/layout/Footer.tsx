@@ -51,7 +51,6 @@ export function Footer() {
                 { href: "/mariages", label: "Mariages" },
                 { href: "/evenements", label: "Événements" },
                 { href: "/methode", label: "La méthode" },
-                { href: "/portfolio", label: "Portfolio" },
                 { href: "/tarifs", label: "Tarifs" },
                 { href: "/blog", label: "Blog" },
                 { href: "/a-propos", label: "À propos" },

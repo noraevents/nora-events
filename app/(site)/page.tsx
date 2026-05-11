@@ -51,28 +51,6 @@ export default function HomePage() {
 
       <ExperienceSection />
 
-      <section className="py-16 px-6 bg-beige">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-8">
-            <h2 className="font-display text-3xl text-anthracite">Quelques mariages coordonnés</h2>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 rounded-lg overflow-hidden">
-            {["table dressée", "fleurs — détail", "domaine normand", "mise en place", "bouquet", "château"].map((label) => (
-              <div
-                key={label}
-                className="aspect-[4/3] bg-gradient-to-br from-beige to-ivoire flex items-center justify-center border border-beige/50"
-              >
-                <p className="font-display text-terracotta/30 text-sm text-center px-4">{label}</p>
-              </div>
-            ))}
-          </div>
-          <div className="text-center mt-8">
-            <Button href="/portfolio" variant="secondary">
-              Voir le portfolio complet
-            </Button>
-          </div>
-        </div>
-      </section>
 
       <CtaBandeau
         titre="Votre mariage mérite quelqu'un qui connaît les coulisses."

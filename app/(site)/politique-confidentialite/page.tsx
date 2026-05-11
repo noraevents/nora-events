@@ -26,7 +26,6 @@ export default function PolitiqueConfidentialitePage() {
             <ul className="list-disc list-inside space-y-2">
               <li><strong>Formulaire de contact / devis :</strong> nom, email, téléphone, informations sur votre événement. Finalité : traitement de votre demande. Durée : 3 ans.</li>
               <li><strong>Newsletter (si abonnement) :</strong> email uniquement. Finalité : envoi d'informations sur les mariages et l'organisation d'événements. Durée : jusqu'à désinscription.</li>
-              <li><strong>Analytics (Plausible) :</strong> données agrégées non personnelles (pages vues, sources de trafic). Aucun cookie déposé. Aucune donnée personnelle collectée.</li>
             </ul>
           </div>
 
@@ -59,10 +58,7 @@ export default function PolitiqueConfidentialitePage() {
           <div>
             <h2 className="font-display text-2xl text-anthracite mb-3">5. Cookies</h2>
             <p>
-              Ce site utilise uniquement <strong>Plausible Analytics</strong>, un outil qui ne
-              dépose aucun cookie et ne collecte aucune donnée personnelle identifiable. Aucune
-              bannière cookie n'est requise pour Plausible. Si vous avez refusé le consentement,
-              aucun script analytique n'est chargé.
+              Ce site ne dépose aucun cookie. Aucun outil de tracking n'est utilisé.
             </p>
           </div>
 

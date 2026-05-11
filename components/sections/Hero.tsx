@@ -18,7 +18,7 @@ export function Hero({
       {/* Vidéo de fond */}
       <div className="absolute inset-0">
         <video
-          src="/images/Enjoy_the_video_If_you_d_like_any_changes_feel_free_to_let_me_know.mp4"
+          src="/images/hero.mp4"
           autoPlay
           muted
           loop

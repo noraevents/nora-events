@@ -11,7 +11,7 @@ const preuves = [
     numero: "02",
     titre: "J'anticipe les imprévus avant qu'ils arrivent",
     detail:
-      "En salle, les problèmes ne se gèrent pas devant les invités. Ils se règlent en coulisses, à l'avance. C'est un réflexe de terrain — pas une méthode apprise en formation.",
+      "En salle, les problèmes se règlent en coulisses, avant que quiconque ne les voie. C'est quelque chose qu'on apprend sur le terrain, à force de répétition — et que je mets au service de votre journée.",
   },
   {
     numero: "03",
@@ -36,7 +36,7 @@ export function ExperienceSection() {
             Pourquoi Nora Events
           </p>
           <h2 className="font-display text-4xl text-anthracite leading-tight">
-            Une crédibilité construite sur le terrain, pas en formation
+            Ce que 5 ans de terrain m'ont appris à faire pour vous
           </h2>
         </div>
 

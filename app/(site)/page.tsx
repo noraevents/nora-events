@@ -29,14 +29,13 @@ export default function HomePage() {
       <section className="py-20 px-6 bg-beige text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-display text-4xl text-anthracite mb-6">
-            Ce que vous ne trouverez nulle part ailleurs
+            5 ans dans les coulisses — voilà ce que ça change
           </h2>
           <p className="font-body text-lg text-anthracite/70 leading-relaxed">
-            La plupart des wedding planners ont appris leur métier en formation. Moi, j'ai passé 5 ans
-            dans les cuisines et les salles des plus grands traiteurs normands et parisiens — à
-            coordonner, anticiper, gérer les imprévus en temps réel.{" "}
+            J'ai passé 5 ans en maître d'hôtel dans des domaines et restaurants gastronomiques normands
+            et parisiens — à coordonner, anticiper, gérer les imprévus en temps réel.{" "}
             <span className="text-terracotta font-medium">
-              Je ne découvre pas votre mariage le jour J. Je l'anticipe depuis des mois.
+              Le jour J, je ne découvre pas votre mariage. Je l'ai préparé avec vous depuis des mois.
             </span>
           </p>
           <Button href="/methode" variant="ghost" className="mt-6">

@@ -9,7 +9,7 @@ interface CtaBandeauProps {
 }
 
 export function CtaBandeau({
-  titre = "Votre mariage mérite quelqu'un qui connaît les coulisses.",
+  titre = "On parle de votre mariage ?",
   texte,
   ctaLabel = "Prendre rendez-vous gratuitement",
   ctaHref = "/contact",

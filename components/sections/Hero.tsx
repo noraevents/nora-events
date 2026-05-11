@@ -23,7 +23,7 @@ export function Hero({
           muted
           loop
           playsInline
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover scale-110 origin-top-left"
         />
         <div className="absolute inset-0 bg-anthracite/40" />
       </div>

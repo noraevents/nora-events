@@ -1,4 +1,5 @@
 // Données du site Nora Events — éditées par Claude Code sur demande
+import { articles } from "./articles";
 
 export const offres = [
   {
@@ -129,11 +130,8 @@ export const temoignages: {
   afficherSurHomepage: boolean;
 }[] = [];
 
-export const articlesAVenir = [
-  { slug: "retroplanning-mariage-guide-complet", titre: "Rétroplanning mariage : le guide complet J-12 mois à J-0", categorie: "Organisation" },
-  { slug: "wedding-planner-normandie-comment-choisir", titre: "Wedding planner Normandie : comment choisir (et éviter les pièges)", categorie: "Organisation" },
-  { slug: "budget-mariage-france-2026", titre: "Budget mariage moyen en France en 2026 : les vrais chiffres", categorie: "Budget" },
-  { slug: "coordination-jour-j-a-quoi-ca-sert", titre: "Coordination Jour J : à quoi ça sert vraiment ?", categorie: "Organisation" },
-  { slug: "erreurs-devis-traiteur-mariage", titre: "5 erreurs sur les devis traiteur (et comment les éviter)", categorie: "Budget" },
-  { slug: "domaines-chateaux-mariage-normandie", titre: "Mariage en Normandie : les plus beaux domaines et châteaux", categorie: "Normandie" },
-];
+export const articlesAVenir = articles.map((a) => ({
+  slug: a.slug,
+  titre: a.titre,
+  categorie: a.categorie,
+}));

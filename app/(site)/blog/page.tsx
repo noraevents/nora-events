@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { articlesAVenir } from "@/lib/data";
+import Link from "next/link";
+import { articles } from "@/lib/articles";
 
 export const metadata: Metadata = {
   title: "Blog — Conseils organisation mariage & événements",
@@ -28,14 +29,30 @@ export default function BlogPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {articlesAVenir.map((article) => (
-            <div key={article.slug} className="bg-ivoire rounded-lg p-8 border border-beige">
-              <span className={`text-xs font-body font-medium px-2 py-0.5 rounded-full ${categorieColors[article.categorie] ?? "bg-beige text-anthracite"}`}>
-                {article.categorie}
-              </span>
-              <p className="font-display text-xl text-anthracite mt-4 leading-snug">{article.titre}</p>
-              <p className="font-body text-xs text-anthracite/40 mt-4">Bientôt disponible</p>
-            </div>
+          {articles.map((article) => (
+            <Link
+              key={article.slug}
+              href={`/blog/${article.slug}`}
+              className="group bg-ivoire rounded-lg p-8 border border-beige hover:border-terracotta/30 hover:shadow-sm transition-all"
+            >
+              <div className="flex items-center justify-between mb-4">
+                <span
+                  className={`text-xs font-body font-medium px-2 py-0.5 rounded-full ${
+                    categorieColors[article.categorie] ?? "bg-beige text-anthracite"
+                  }`}
+                >
+                  {article.categorie}
+                </span>
+                <span className="text-xs font-body text-anthracite/40">{article.tempsLecture}</span>
+              </div>
+              <p className="font-display text-xl text-anthracite leading-snug mb-3 group-hover:text-terracotta transition-colors">
+                {article.titre}
+              </p>
+              <p className="font-body text-sm text-anthracite/60 leading-relaxed">
+                {article.extrait}
+              </p>
+              <p className="font-body text-xs text-terracotta mt-4">Lire l'article →</p>
+            </Link>
           ))}
         </div>
       </div>

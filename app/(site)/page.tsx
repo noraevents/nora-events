@@ -3,7 +3,7 @@ import { Hero } from "@/components/sections/Hero";
 import { ChiffresConfiance } from "@/components/sections/ChiffresConfiance";
 import { ApercuOffres } from "@/components/sections/ApercuOffres";
 import { ProcessusEtapes } from "@/components/sections/ProcessusEtapes";
-import { TemoignageCarousel } from "@/components/sections/TemoignageCarousel";
+import { ExperienceSection } from "@/components/sections/ExperienceSection";
 import { CtaBandeau } from "@/components/sections/CtaBandeau";
 import { Button } from "@/components/ui/Button";
 
@@ -49,7 +49,7 @@ export default function HomePage() {
 
       <ProcessusEtapes />
 
-      <TemoignageCarousel />
+      <ExperienceSection />
 
       <section className="py-16 px-6 bg-beige">
         <div className="max-w-7xl mx-auto">

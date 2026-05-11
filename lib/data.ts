@@ -119,38 +119,15 @@ export const faqTarifs = [
   },
 ];
 
-export const temoignages = [
-  {
-    id: "1",
-    prenom: "Sophie & Maxime",
-    ville: "Rouen",
-    typeEvenement: "Mariage",
-    note: 5,
-    texte:
-      "Nora a géré l'intégralité de notre Jour J avec un calme impressionnant. On a profité de chaque instant sans penser une seule seconde à la logistique. Exactement ce qu'on voulait.",
-    afficherSurHomepage: true,
-  },
-  {
-    id: "2",
-    prenom: "Camille",
-    ville: "Le Havre",
-    typeEvenement: "Mariage",
-    note: 5,
-    texte:
-      "Elle a repéré une erreur dans le devis de notre traiteur avant qu'on signe. Résultat : 700 € économisés. Son expérience terrain, ça se sent à chaque échange.",
-    afficherSurHomepage: true,
-  },
-  {
-    id: "3",
-    prenom: "Marie & Thomas",
-    ville: "Paris 16e",
-    typeEvenement: "Baptême",
-    note: 5,
-    texte:
-      "Même niveau d'exigence pour notre baptême que pour un mariage. Les invités ont tous demandé le contact de Nora à la fin de la soirée.",
-    afficherSurHomepage: true,
-  },
-];
+export const temoignages: {
+  id: string;
+  prenom: string;
+  ville: string;
+  typeEvenement: string;
+  note: number;
+  texte: string;
+  afficherSurHomepage: boolean;
+}[] = [];
 
 export const articlesAVenir = [
   { slug: "retroplanning-mariage-guide-complet", titre: "Rétroplanning mariage : le guide complet J-12 mois à J-0", categorie: "Organisation" },

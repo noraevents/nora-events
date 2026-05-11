@@ -21,9 +21,9 @@ const preuves = [
   },
   {
     numero: "04",
-    titre: "J'ai coordonné des centaines d'événements — en cuisine et en salle",
+    titre: "J'ai travaillé sur des dizaines d'événements — en cuisine et en salle",
     detail:
-      "Pas en stage. Pas sur un seul type de lieu. Dans des domaines, des châteaux, des restaurants gastronomiques, des banquets en tente. Chaque configuration que vous pouvez imaginer, je l'ai déjà gérée.",
+      "Pas en formation. Dans des domaines, des châteaux, des restaurants gastronomiques, des banquets en tente. Des années à observer ce qui fonctionne, ce qui déraille, et pourquoi.",
   },
 ];
 

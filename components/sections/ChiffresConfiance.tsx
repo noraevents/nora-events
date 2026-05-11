@@ -1,6 +1,6 @@
 const chiffres = [
-  { valeur: "200", label: "mariages coordonnés", detail: "depuis les coulisses" },
-  { valeur: "5 ans", label: "de terrain traiteur", detail: "de l'arrière-cuisine à la salle" },
+  { valeur: "5 ans", label: "de terrain en maître d'hôtel", detail: "de l'arrière-cuisine à la salle" },
+  { valeur: "100%", label: "des imprévus anticipés en coulisses", detail: "pas devant les mariés" },
   { valeur: "2 régions", label: "Normandie & IDF", detail: "Le Havre, Rouen, Caen, Paris..." },
 ];
 

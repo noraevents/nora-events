@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 
 interface HeroProps {
@@ -6,8 +5,6 @@ interface HeroProps {
   sousTitre: string;
   ctaPrincipal: { label: string; href: string };
   ctaSecondaire?: { label: string; href: string };
-  image?: string;
-  imagePriority?: boolean;
 }
 
 export function Hero({
@@ -15,20 +12,18 @@ export function Hero({
   sousTitre,
   ctaPrincipal,
   ctaSecondaire,
-  image = "/images/hero-mariage.jpg",
-  imagePriority = true,
 }: HeroProps) {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Image de fond */}
+      {/* Vidéo de fond */}
       <div className="absolute inset-0">
-        <Image
-          src={image}
-          alt="Table dressée pour un mariage en Normandie"
-          fill
-          className="object-cover"
-          priority={imagePriority}
-          sizes="100vw"
+        <video
+          src="/images/Enjoy_the_video_If_you_d_like_any_changes_feel_free_to_let_me_know.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-anthracite/40" />
       </div>

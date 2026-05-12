@@ -26,26 +26,6 @@ export default function TarifsPage() {
 
       <ApercuOffres detaille={true} />
 
-      <section className="py-20 px-6 bg-ivoire">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="font-display text-3xl text-anthracite mb-6 text-center">Pourquoi ces prix ?</h2>
-          <div className="space-y-4 font-body text-anthracite/80 leading-relaxed">
-            <p>
-              À <strong>moins de 1 500 €</strong>, vous trouvez des coordinatrices en début de carrière.
-              Peu d'événements au compteur, pas de réseau terrain, pas d'expérience réelle de l'imprévu.
-            </p>
-            <p>
-              À <strong>plus de 8 000 €</strong>, vous êtes sur des planners premium qui vendent aussi
-              une image de marque et des mariages éditoriaux. C'est un autre marché.
-            </p>
-            <p>
-              À <strong>1 800 – 5 000 €</strong>, Nora Events occupe le segment du milieu : expérience
-              opérationnelle réelle (200 mariages de terrain), prix accessibles, réseau construit sur le
-              tas. Le bon équilibre pour un mariage réussi sans se ruiner.
-            </p>
-          </div>
-        </div>
-      </section>
 
       <FAQAccordeon items={faqTarifs} titre="Questions sur les tarifs" />
 

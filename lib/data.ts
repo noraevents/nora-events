@@ -1,4 +1,3 @@
-// Données du site Nora Events — éditées par Claude Code sur demande
 import { articles } from "./articles";
 
 export const offres = [

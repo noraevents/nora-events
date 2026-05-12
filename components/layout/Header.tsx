@@ -31,7 +31,7 @@ export function Header() {
           "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
           scrolled
             ? "bg-beige/95 backdrop-blur-sm shadow-sm"
-            : "bg-transparent"
+            : "bg-anthracite/30 backdrop-blur-sm"
         )}
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8 h-16 flex items-center justify-between">
@@ -40,7 +40,7 @@ export function Header() {
             href="/"
             className={cn(
               "font-display text-2xl transition-colors",
-              scrolled ? "text-anthracite hover:text-terracotta" : "text-terracotta hover:text-terracotta/80"
+              scrolled ? "text-anthracite hover:text-terracotta" : "text-ivoire hover:text-ivoire/80"
             )}
             aria-label="Nora Events — Accueil"
           >
@@ -55,7 +55,7 @@ export function Header() {
                 href={link.href}
                 className={cn(
                   "font-body text-sm transition-colors",
-                  scrolled ? "text-anthracite/80 hover:text-terracotta" : "text-terracotta hover:text-terracotta/80"
+                  scrolled ? "text-anthracite/80 hover:text-terracotta" : "text-ivoire/90 hover:text-ivoire"
                 )}
               >
                 {link.label}

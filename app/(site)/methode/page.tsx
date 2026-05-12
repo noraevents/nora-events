@@ -23,9 +23,9 @@ const retroplanning = [
   { periode: "J-9 mois", actions: ["Sélectionner le traiteur", "Réserver le photographe", "Envoyer les save-the-dates"] },
   { periode: "J-6 mois", actions: ["Choisir la robe et les costumes", "Réserver DJ/musiciens", "Planifier lune de miel"] },
   { periode: "J-3 mois", actions: ["Envoyer les invitations", "Finaliser le menu", "Organiser le plan de table"] },
-  { periode: "J-1 mois", actions: ["Confirmer chaque prestataire", "Finaliser le rétroplanning Jour J", "Briefing Nora avec tous les prestataires"] },
+  { periode: "J-1 mois", actions: ["Confirmer chaque prestataire", "Finaliser le rétroplanning Jour J", "Briefing avec tous les prestataires"] },
   { periode: "J-14 jours", actions: ["Dernière vérification prestataires", "Livraison du rétroplanning définitif", "Briefing lieu de réception"] },
-  { periode: "Jour J", actions: ["Nora arrive 2h avant les invités", "Coordination de tous les prestataires", "Vous profitez — Nora gère tout"] },
+  { periode: "Jour J", actions: ["J'arrive 2h avant les invités", "Coordination de tous les prestataires", "Vous profitez, je gère tout"] },
 ];
 
 export default function MethodePage() {
@@ -35,7 +35,7 @@ export default function MethodePage() {
       <section className="bg-beige pt-32 pb-16 px-6">
         <div className="max-w-4xl mx-auto">
           <h1 className="font-display text-5xl lg:text-6xl text-anthracite mb-6 leading-tight">
-            Ce qui se passe vraiment le jour de votre mariage — vu de l'intérieur.
+            Ce qui se passe vraiment le jour de votre mariage, vu de l'intérieur.
           </h1>
         </div>
       </section>
@@ -52,11 +52,11 @@ export default function MethodePage() {
           <p>
             <strong className="text-anthracite">9h.</strong> Le fleuriste arrive. Je vérifie que les
             arrangements correspondent exactement à ce qui a été commandé. Si quelque chose ne va pas,
-            je le règle — vous n'en saurez rien.
+            je le règle. Vous n'en saurez rien.
           </p>
           <p>
             <strong className="text-anthracite">11h.</strong> Vous commencez vos préparatifs. Mon téléphone
-            sonne. Le photographe est bloqué dans les embouteillages — 25 minutes de retard. Je décale
+            sonne. Le photographe est bloqué dans les embouteillages, 25 minutes de retard. Je décale
             le timing du début de cérémonie de 10 minutes, je préviens le maître de cérémonie, je
             recale le traiteur. Vous êtes en train de vous coiffer. Vous ne savez pas.
           </p>
@@ -71,7 +71,7 @@ export default function MethodePage() {
             service du fromage. Je serai là jusqu'à la fin.
           </p>
           <p className="text-terracotta font-medium">
-            C'est ça, une vraie coordination. Pas de l'organisation sur papier — de la gestion en temps
+            C'est ça, une vraie coordination. Pas de l'organisation sur papier. De la gestion en temps
             réel, formée par des centaines de Jours J depuis les coulisses.
           </p>
         </div>
@@ -114,7 +114,7 @@ export default function MethodePage() {
             Téléchargez le rétroplanning complet
           </p>
           <p className="font-body text-anthracite/70 mb-6">
-            PDF gratuit — Le rétroplanning mariage semaine par semaine de J-12 mois à J-0.
+            PDF gratuit. Le rétroplanning mariage semaine par semaine de J-12 mois à J-0.
             Ce que vous devez faire, dans quel ordre, et pourquoi.
           </p>
           <a
@@ -150,7 +150,7 @@ export default function MethodePage() {
 
       {/* CTA */}
       <CtaBandeau
-        titre="Travailler avec Nora, c'est travailler avec quelqu'un qui sait."
+        titre="Travailler avec moi, c'est travailler avec quelqu'un qui sait."
         ctaLabel="Commençons par un appel"
         ctaHref="/contact"
       />

@@ -21,7 +21,7 @@ const valeurs = [
   },
   {
     titre: "Chaleur humaine",
-    texte: "Un mariage c'est une émotion, pas un projet. Je ne perds jamais ça de vue — même quand je gère la logistique.",
+    texte: "Un mariage c'est une émotion, pas un projet. Je ne perds jamais ça de vue, même quand je gère la logistique.",
   },
 ];
 
@@ -58,7 +58,7 @@ export default function AProposPage() {
       <section className="py-20 px-6 bg-ivoire">
         <div className="max-w-3xl mx-auto font-body text-lg text-anthracite/80 leading-relaxed space-y-6">
           <p>
-            En cinq ans, j'ai coordonné et assisté plus de 200 événements depuis les coulisses —
+            En cinq ans, j'ai coordonné et assisté plus de 200 événements depuis les coulisses :
             des mariages en château normand aux réceptions d'entreprise parisiennes, en passant par
             des baptêmes et des anniversaires. J'ai vu des dizaines de wedding planners travailler.
             J'ai vu ce qui fonctionnait et ce qui ratait.
@@ -72,7 +72,7 @@ export default function AProposPage() {
           </p>
           <p>
             C'est ce bagage que j'apporte à chacun de mes clients. Pas une certification, pas un
-            diplôme de wedding planner — une expérience réelle, répétée, éprouvée.
+            diplôme de wedding planner. Une expérience réelle, répétée, éprouvée.
           </p>
         </div>
       </section>

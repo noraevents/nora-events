@@ -67,7 +67,7 @@ export function ApercuOffres({ detaille = false }: ApercuOffresProps) {
         {!detaille && (
           <div className="text-center mt-8">
             <Button href="/tarifs" variant="ghost">
-              Voir le détail des offres →
+              Voir le détail des offres
             </Button>
           </div>
         )}

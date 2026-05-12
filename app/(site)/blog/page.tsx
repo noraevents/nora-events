@@ -51,7 +51,7 @@ export default function BlogPage() {
               <p className="font-body text-sm text-anthracite/60 leading-relaxed">
                 {article.extrait}
               </p>
-              <p className="font-body text-xs text-terracotta mt-4">Lire l'article →</p>
+              <p className="font-body text-xs text-terracotta mt-4">Lire l'article</p>
             </Link>
           ))}
         </div>

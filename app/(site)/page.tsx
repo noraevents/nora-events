@@ -18,8 +18,8 @@ export default function HomePage() {
   return (
     <>
       <Hero
-        titre="Le jour J, vous profitez. Nora gère tout."
-        sousTitre="Coordinatrice de mariages en Normandie et en Île-de-France — formée par 5 ans de terrain aux côtés des traiteurs."
+        titre="Le jour J, vous profitez. Je gère tout."
+        sousTitre="Coordinatrice de mariages en Normandie et en Île-de-France, formée par 5 ans de terrain aux côtés des traiteurs."
         ctaPrincipal={{ label: "Demander un devis gratuit", href: "/contact" }}
         ctaSecondaire={{ label: "Découvrir la méthode", href: "/methode" }}
       />
@@ -29,17 +29,17 @@ export default function HomePage() {
       <section className="py-20 px-6 bg-beige text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-display text-4xl text-anthracite mb-6">
-            5 ans dans les coulisses — voilà ce que ça change
+            5 ans dans les coulisses. Voilà ce que ça change.
           </h2>
           <p className="font-body text-lg text-anthracite/70 leading-relaxed">
             J'ai passé 5 ans en maître d'hôtel dans des domaines et restaurants gastronomiques normands
-            et parisiens — à coordonner, anticiper, gérer les imprévus en temps réel.{" "}
+            et parisiens, à coordonner, anticiper, gérer les imprévus en temps réel.{" "}
             <span className="text-terracotta font-medium">
               Le jour J, je ne découvre pas votre mariage. Je l'ai préparé avec vous depuis des mois.
             </span>
           </p>
           <Button href="/methode" variant="ghost" className="mt-6">
-            Voir ma méthode →
+            Voir ma méthode
           </Button>
         </div>
       </section>

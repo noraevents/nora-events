@@ -5,13 +5,13 @@ const preuves = [
     numero: "01",
     titre: "Je relis vos devis traiteur avant que vous signiez",
     detail:
-      "5 ans à travailler aux côtés des traiteurs — j'ai appris à lire ce qui se cache entre les lignes : clauses d'annulation floues, coûts de service non inclus, marges sur les boissons. Avant de signer, on regarde ensemble.",
+      "5 ans à travailler aux côtés des traiteurs. J'ai appris à lire ce qui se cache entre les lignes : clauses d'annulation floues, coûts de service non inclus, marges sur les boissons. Avant de signer, on regarde ensemble.",
   },
   {
     numero: "02",
     titre: "J'anticipe les imprévus avant qu'ils arrivent",
     detail:
-      "En salle, les problèmes se règlent en coulisses, avant que quiconque ne les voie. C'est quelque chose qu'on apprend sur le terrain, à force de répétition — et que je mets au service de votre journée.",
+      "En salle, les problèmes se règlent en coulisses, avant que quiconque ne les voie. C'est quelque chose qu'on apprend sur le terrain, à force de répétition. Je mets ça au service de votre journée.",
   },
   {
     numero: "03",
@@ -21,7 +21,7 @@ const preuves = [
   },
   {
     numero: "04",
-    titre: "~200 mariages vécus de l'intérieur — en cuisine et en salle",
+    titre: "~200 mariages vécus de l'intérieur, en cuisine et en salle",
     detail:
       "Pas en formation. Pas en stage. 5 ans en maître d'hôtel dans des domaines, des châteaux, des restaurants gastronomiques. J'ai vu de l'intérieur ce qui fonctionne, ce qui déraille, et pourquoi.",
   },
@@ -33,7 +33,7 @@ export function ExperienceSection() {
       <div className="max-w-7xl mx-auto">
         <div className="max-w-2xl mb-14">
           <p className="font-body text-sm text-terracotta uppercase tracking-widest mb-3">
-            Pourquoi Nora Events
+            Ce que je fais différemment
           </p>
           <h2 className="font-display text-4xl text-anthracite leading-tight">
             Ce que 5 ans de terrain m'ont appris à faire pour vous
@@ -60,7 +60,7 @@ export function ExperienceSection() {
 
         <div className="mt-10 text-center">
           <Button href="/methode" variant="secondary">
-            Voir comment je travaille →
+            Voir comment je travaille
           </Button>
         </div>
       </div>

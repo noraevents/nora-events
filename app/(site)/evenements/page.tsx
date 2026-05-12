@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const evenements = [
   {
     type: "Baptême",
-    emoji: "🌿",
+    emoji: "",
     description:
       "De la réservation du lieu à la coordination le Jour J. Je m'occupe de tout pour que vous soyez avec votre bébé, pas avec les prestataires.",
     inclus: ["Sélection et coordination des prestataires", "Présence le Jour J", "Coordination repas et animations"],
@@ -21,17 +21,17 @@ const evenements = [
   },
   {
     type: "Anniversaire",
-    emoji: "✨",
+    emoji: "",
     description:
-      "Anniversaire marquant (30, 40, 50 ans…) ou simple fête en famille — j'adapte mon niveau d'implication à l'ampleur de votre projet.",
+      "Anniversaire marquant (30, 40, 50 ans…) ou simple fête en famille. J'adapte mon niveau d'implication à l'ampleur de votre projet.",
     inclus: ["Coordination prestataires", "Rétroplanning sur mesure", "Présence le Jour J selon formule"],
     prix: "À partir de 1 000 €",
   },
   {
     type: "Événement familial",
-    emoji: "🏡",
+    emoji: "",
     description:
-      "Dîner de famille, réunion de 100 personnes, fête de retraite — tout ce qui compte et mérite d'être bien organisé.",
+      "Dîner de famille, réunion de 100 personnes, fête de retraite. Tout ce qui compte et mérite d'être bien organisé.",
     inclus: ["Conseil et structuration", "Coordination prestataires", "Présence partielle ou totale"],
     prix: "Tarif sur devis",
   },
@@ -44,7 +44,7 @@ export default function EvenementsPage() {
       <section className="bg-beige pt-32 pb-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="font-display text-5xl lg:text-6xl text-anthracite mb-6 leading-tight">
-            Baptêmes, anniversaires, dîners privés — le même niveau d'exigence.
+            Baptêmes, anniversaires, dîners privés. Le même niveau d'exigence.
           </h1>
           <p className="font-body text-lg text-anthracite/70 max-w-2xl mx-auto leading-relaxed">
             Pas besoin que ce soit un mariage pour mériter une vraie organisation. Chaque événement
@@ -58,7 +58,7 @@ export default function EvenementsPage() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           {evenements.map((e) => (
             <div key={e.type} className="bg-beige rounded-lg p-8">
-              <div className="text-3xl mb-4">{e.emoji}</div>
+              {e.emoji && <div className="text-3xl mb-4">{e.emoji}</div>}
               <h2 className="font-display text-2xl text-anthracite mb-2">{e.type}</h2>
               <p className="font-body text-sm text-anthracite/70 leading-relaxed mb-4">{e.description}</p>
               <ul className="space-y-1.5 mb-6">
@@ -81,7 +81,7 @@ export default function EvenementsPage() {
       {/* CTA */}
       <CtaBandeau
         titre="Décrivez-moi votre événement."
-        texte="Que ce soit une table de 12 ou une fête de 150 personnes — prenons 30 minutes pour en parler."
+        texte="Que ce soit une table de 12 ou une fête de 150 personnes, prenons 30 minutes pour en parler."
         ctaLabel="Décrire mon événement"
         ctaHref="/contact"
         variant="terracotta"

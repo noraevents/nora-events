@@ -70,7 +70,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
           </p>
         )}
 
-        <p className="mt-4 text-sm text-terracotta font-medium font-body">Lire l'article →</p>
+        <p className="mt-4 text-sm text-terracotta font-medium font-body">Lire l'article</p>
       </div>
     </Link>
   );

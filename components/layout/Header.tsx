@@ -40,7 +40,7 @@ export function Header() {
             href="/"
             className={cn(
               "font-display text-2xl transition-colors",
-              scrolled ? "text-anthracite hover:text-terracotta" : "text-ivoire hover:text-ivoire/80"
+              scrolled ? "text-anthracite hover:text-terracotta" : "text-terracotta hover:text-terracotta/80"
             )}
             aria-label="Nora Events — Accueil"
           >
@@ -55,7 +55,7 @@ export function Header() {
                 href={link.href}
                 className={cn(
                   "font-body text-sm transition-colors",
-                  scrolled ? "text-anthracite/80 hover:text-terracotta" : "text-ivoire/90 hover:text-ivoire"
+                  scrolled ? "text-anthracite/80 hover:text-terracotta" : "text-terracotta hover:text-terracotta/80"
                 )}
               >
                 {link.label}

@@ -26,6 +26,7 @@ export function Hero({
           className="w-full h-full object-cover scale-125 origin-top-left"
         />
         <div className="absolute inset-0 bg-anthracite/40" />
+        <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-anthracite/60 to-transparent" />
       </div>
 
       {/* Contenu */}

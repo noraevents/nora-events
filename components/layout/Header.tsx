@@ -38,7 +38,10 @@ export function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="font-display text-2xl text-anthracite hover:text-terracotta transition-colors"
+            className={cn(
+              "font-display text-2xl transition-colors",
+              scrolled ? "text-anthracite hover:text-terracotta" : "text-ivoire hover:text-ivoire/80"
+            )}
             aria-label="Nora Events — Accueil"
           >
             Nora Events
@@ -50,7 +53,10 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="font-body text-sm text-anthracite/80 hover:text-terracotta transition-colors"
+                className={cn(
+                  "font-body text-sm transition-colors",
+                  scrolled ? "text-anthracite/80 hover:text-terracotta" : "text-ivoire/90 hover:text-ivoire"
+                )}
               >
                 {link.label}
               </Link>

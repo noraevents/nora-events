@@ -77,7 +77,7 @@ export function Footer() {
 
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-ivoire/10 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-ivoire/40">
-          <p>© {currentYear} Nora Events — SIRET à compléter</p>
+          <p>© {currentYear} Nora Events</p>
           <div className="flex gap-6">
             <Link href="/mentions-legales" className="hover:text-ivoire transition-colors">Mentions légales</Link>
             <Link href="/cgv" className="hover:text-ivoire transition-colors">CGV</Link>

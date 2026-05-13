@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { FormulaireDevis } from "@/components/sections/FormulaireDevis";
+import { CalendlyWidget } from "@/components/sections/CalendlyWidget";
 import { Mail, Clock, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -55,21 +56,6 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Calendly */}
-              <div className="mt-10 p-6 bg-ivoire rounded-lg border border-beige">
-                <p className="font-body font-medium text-anthracite mb-2 text-sm">
-                  Vous préférez un appel direct ?
-                </p>
-                <a
-                  href="https://calendly.com/noraevents-contact/30min"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block w-full text-center bg-anthracite text-ivoire py-3 px-4 rounded text-sm font-body hover:bg-anthracite/80 transition-colors"
-                >
-                  Réserver un appel découverte gratuit (30 min)
-                </a>
-                <p className="text-xs text-anthracite/50 mt-2 text-center font-body">Aucun engagement</p>
-              </div>
 
               <p className="mt-8 text-xs text-anthracite/50 font-body leading-relaxed">
                 Pas d'engagement. Pas de relance commerciale agressive. Juste une conversation pour
@@ -82,6 +68,19 @@ export default function ContactPage() {
               <FormulaireDevis />
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Appel découverte */}
+      <section className="bg-ivoire py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-10">
+            <h2 className="font-display text-4xl text-anthracite mb-4">Vous préférez échanger de vive voix ?</h2>
+            <p className="font-body text-anthracite/70 max-w-xl mx-auto">
+              Réservez un appel découverte de 30 minutes, gratuit et sans engagement. On fait connaissance, vous me parlez de votre projet, je vous explique comment je travaille.
+            </p>
+          </div>
+          <CalendlyWidget />
         </div>
       </section>
     </>

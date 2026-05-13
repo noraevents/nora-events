@@ -36,8 +36,8 @@ export function Hero({
       {/* Contenu */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto pt-16">
         <h1
-          className="font-display text-terracotta text-5xl sm:text-6xl lg:text-7xl mb-6 leading-tight"
-          style={{ textShadow: "0 2px 20px rgba(0,0,0,0.4)" }}
+          className="font-display text-5xl sm:text-6xl lg:text-7xl mb-6 leading-tight"
+          style={{ color: "#C4714A", textShadow: "0 2px 20px rgba(0,0,0,0.5)" }}
         >
           {titre}
         </h1>

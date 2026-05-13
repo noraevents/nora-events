@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
@@ -36,26 +37,18 @@ export function Header() {
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8 h-16 flex items-center justify-between">
           {/* Logo */}
-          <Link
-            href="/"
-            className="flex items-baseline gap-1.5 transition-colors leading-none"
-            aria-label="Nora Events — Accueil"
-          >
-            <span
-              className="font-display font-500 tracking-[0.18em] uppercase text-xl"
-              style={{ color: scrolled ? "#2C2C2C" : "#FAF7F4" }}
-            >
-              Nora
-            </span>
-            <span
-              className="text-3xl leading-none"
-              style={{
-                fontFamily: "var(--font-script)",
-                color: scrolled ? "#C4714A" : "#FAF7F4",
-              }}
-            >
-              Events
-            </span>
+          <Link href="/" aria-label="Nora Events — Accueil">
+            <Image
+              src="/logo.png"
+              alt="Nora Events"
+              width={52}
+              height={52}
+              className={cn(
+                "transition-all duration-300",
+                scrolled ? "brightness-100" : "brightness-0 invert"
+              )}
+              priority
+            />
           </Link>
 
           {/* Nav desktop */}

@@ -18,15 +18,6 @@ const checklistTraiteur = [
   "Les prix sont-ils garantis jusqu'à la date de l'événement ?",
 ];
 
-const retroplanning = [
-  { periode: "J-12 mois", actions: ["Fixer la date et le lieu", "Définir le budget global", "Choisir l'offre de coordination"] },
-  { periode: "J-9 mois", actions: ["Sélectionner le traiteur", "Réserver le photographe", "Envoyer les save-the-dates"] },
-  { periode: "J-6 mois", actions: ["Choisir la robe et les costumes", "Réserver DJ/musiciens", "Planifier lune de miel"] },
-  { periode: "J-3 mois", actions: ["Envoyer les invitations", "Finaliser le menu", "Organiser le plan de table"] },
-  { periode: "J-1 mois", actions: ["Confirmer chaque prestataire", "Finaliser le rétroplanning Jour J", "Briefing avec tous les prestataires"] },
-  { periode: "J-14 jours", actions: ["Dernière vérification prestataires", "Livraison du rétroplanning définitif", "Briefing lieu de réception"] },
-  { periode: "Jour J", actions: ["J'arrive 2h avant les invités", "Coordination de tous les prestataires", "Vous profitez, je gère tout"] },
-];
 
 export default function MethodePage() {
   return (
@@ -74,36 +65,6 @@ export default function MethodePage() {
             C'est ça, une vraie coordination. Pas de l'organisation sur papier. De la gestion en temps
             réel, formée par des centaines de Jours J depuis les coulisses.
           </p>
-        </div>
-      </section>
-
-      {/* Rétroplanning aperçu */}
-      <section className="py-20 px-6 bg-beige">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="font-display text-4xl text-anthracite text-center mb-12">
-            Les grandes étapes de J-12 mois à J-0
-          </h2>
-          <p className="text-center text-sm text-anthracite/60 mb-10 font-body">
-            Aperçu — le rétroplanning complet semaine par semaine est dans le lead magnet gratuit.
-          </p>
-
-          <div className="space-y-4">
-            {retroplanning.map((etape) => (
-              <div key={etape.periode} className="flex gap-6 p-6 bg-ivoire rounded-lg">
-                <div className="flex-shrink-0 w-28">
-                  <p className="font-display text-xl text-terracotta">{etape.periode}</p>
-                </div>
-                <ul className="space-y-1">
-                  {etape.actions.map((action) => (
-                    <li key={action} className="font-body text-sm text-anthracite/80 flex items-start gap-2">
-                      <span className="text-sauge mt-1">•</span>
-                      {action}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 

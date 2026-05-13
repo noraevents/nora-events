@@ -35,10 +35,16 @@ export function Hero({
 
       {/* Contenu */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto pt-16">
-        <h1 className="font-display text-ivoire text-5xl sm:text-6xl lg:text-7xl mb-6 leading-tight">
+        <h1
+          className="font-display text-ivoire text-5xl sm:text-6xl lg:text-7xl mb-6 leading-tight"
+          style={{ textShadow: "0 2px 20px rgba(0,0,0,0.6)" }}
+        >
           {titre}
         </h1>
-        <p className="font-body text-ivoire/90 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p
+          className="font-body text-ivoire text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
+          style={{ textShadow: "0 1px 12px rgba(0,0,0,0.7)" }}
+        >
           {sousTitre}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

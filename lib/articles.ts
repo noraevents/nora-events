@@ -19,185 +19,98 @@ export type Article = {
 
 export const articles: Article[] = [
   {
-    slug: "retroplanning-mariage-guide-complet",
-    titre: "Rétroplanning mariage : le guide complet J-12 mois à J-0",
+    slug: "erreurs-devis-traiteur-mariage",
+    titre: "5 erreurs sur les devis traiteur (et comment les éviter)",
     metaDescription:
-      "Tout ce qu'il faut faire et quand — de la date à cocher à J-12 mois jusqu'aux dernières confirmations à J-7 jours. Le rétroplanning mariage que personne ne vous donne.",
-    categorie: "Organisation",
+      "5 erreurs classiques sur les devis traiteur de mariage, vues de l'intérieur après 5 ans en maître d'hôtel. Comment les repérer et les éviter avant de signer.",
+    categorie: "Budget",
     datePublication: "2026-05-11",
-    tempsLecture: "8 min",
+    tempsLecture: "5 min",
     extrait:
-      "De J-12 mois à J-0, chaque étape dans l'ordre. Ce que vous devez faire, ce que vous pouvez reporter, et ce que personne ne vous dit.",
+      "Après 5 ans à travailler aux côtés des traiteurs, voici les 5 erreurs que je vois systématiquement sur les devis — et comment les éviter avant de signer.",
     sections: [
       {
         type: "p",
-        text: "Organiser un mariage sans rétroplanning, c'est conduire sans GPS sur un trajet que vous n'avez jamais fait. Ça peut fonctionner. Mais vous allez vous perdre, stresser, et arriver en retard. Ce guide vous donne la carte complète — mois par mois, de la décision à la dernière dance.",
+        text: "Le devis traiteur est le document sur lequel la plupart des couples passent le moins de temps — alors que c'est celui qui représente jusqu'à 45 % de leur budget. Après 5 ans en maître d'hôtel à coordonner des dizaines de mariages aux côtés des équipes traiteur, voici les cinq erreurs que je vois répétées presque à chaque fois.",
+      },
+      {
+        type: "h2",
+        text: "Erreur n°1 : signer sans lire les clauses d'annulation",
+      },
+      {
+        type: "p",
+        text: "Les clauses d'annulation varient énormément d'un traiteur à l'autre. Certains remboursent l'intégralité de l'acompte jusqu'à 6 mois avant l'événement. D'autres retiennent 50 % dès la signature. Quelques-uns réclament la totalité si vous annulez à moins de 3 mois.",
+      },
+      {
+        type: "p",
+        text: "Lisez cette clause avant de comparer les prix. Un traiteur moins cher avec des conditions d'annulation sévères peut vous coûter plus cher qu'un traiteur un peu plus cher mais plus souple — si votre situation change.",
+      },
+      {
+        type: "h2",
+        text: "Erreur n°2 : comparer les prix au lieu de comparer les prestations",
+      },
+      {
+        type: "p",
+        text: "Deux devis à 90 €/pers n'incluent pas forcément la même chose. L'un comprend les apéritifs, les vins à table et le champagne pour le toast. L'autre propose des vins de table basiques et facture le champagne en supplément.",
+      },
+      {
+        type: "p",
+        text: "Pour comparer vraiment, créez un tableau avec les mêmes lignes pour chaque devis : apéritif (quantité et qualité), entrée, plat, dessert, café, vins (AOC ou basique ?), champagne, service (combien de serveurs, combien d'heures), matériel inclus ou loué en supplément.",
       },
       {
         type: "callout",
-        text: "Ce rétroplanning est calibré pour un mariage de 80 à 150 invités en France, avec traiteur externe et lieu de réception loué. Ajustez les délais selon la taille de votre événement.",
+        text: "Demandez toujours : « Qu'est-ce qui n'est PAS inclus dans ce devis ? » La réponse à cette question est plus utile que le devis lui-même.",
       },
       {
         type: "h2",
-        text: "J-12 mois : poser les fondamentaux",
+        text: "Erreur n°3 : ne pas vérifier le ratio serveurs/invités",
       },
       {
         type: "p",
-        text: "La première décision conditionne toutes les autres : la date. Avant de contacter le moindre prestataire, alignez-vous sur une date (ou deux options) avec votre famille proche. Les weekends de mai à septembre sont les plus demandés — certains lieux sont complets 18 mois à l'avance.",
+        text: "Le standard pour un mariage avec service à table, c'est un serveur pour 8 à 12 invités. En dessous, le service est lent, les verres restent vides, l'atmosphère se tend. Certains traiteurs proposent un prix très bas parce qu'ils prévoient 1 serveur pour 15 ou 20 invités.",
+      },
+      {
+        type: "p",
+        text: "Posez la question directement : combien de serveurs seront présents pendant le dîner ? Pour combien d'heures ? Qui gère le bar ? Si la réponse est vague, insistez.",
+      },
+      {
+        type: "h2",
+        text: "Erreur n°4 : ne pas demander de dégustation",
+      },
+      {
+        type: "p",
+        text: "La majorité des traiteurs proposent une dégustation — parfois incluse dans le contrat, parfois facturée. Certains couples l'évitent pour gagner du temps ou par gêne de sembler exigeants. C'est une erreur.",
+      },
+      {
+        type: "p",
+        text: "La dégustation est le seul moment où vous pouvez vérifier la qualité réelle de ce que vos invités mangeront. C'est aussi le moment d'ajuster les quantités, les intolérances alimentaires, et de confirmer les détails du service.",
+      },
+      {
+        type: "h2",
+        text: "Erreur n°5 : oublier de chiffrer les extras",
+      },
+      {
+        type: "p",
+        text: "Certains postes n'apparaissent pas dans le devis initial mais se retrouvent sur la facture finale :",
       },
       {
         type: "ul",
         items: [
-          "Fixer la date et valider la disponibilité des proches incontournables",
-          "Définir un budget global et la répartition entre familles (si applicable)",
-          "Établir une liste d'invités indicative (fourchette haute et fourchette basse)",
-          "Définir le style du mariage : intime ou festif, champêtre ou élégant, religieux ou civil",
-          "Commencer la visite de lieux de réception — c'est le premier prestataire à bloquer",
+          "Heures supplémentaires si la soirée se prolonge au-delà du forfait",
+          "Location de matériel (tables, chaises, vaisselle) si le lieu ne les fournit pas",
+          "Frais de déplacement si le traiteur est loin du lieu",
+          "Repas du personnel (coordinatrice, photographe, DJ — souvent demandés par les prestataires)",
+          "Pièce montée ou gâteau de mariage, parfois non inclus dans le menu",
         ],
-      },
-      {
-        type: "h2",
-        text: "J-10 mois : réserver les prestataires sous tension",
       },
       {
         type: "p",
-        text: "Certains prestataires n'ont qu'une ou deux dates disponibles le weekend à la saison haute. Photographe, traiteur et DJ font partie de cette catégorie. Si vous attendez J-6 mois pour les contacter, vous serez en concurrence directe avec toutes les mariées de votre région qui ont eu la même idée.",
-      },
-      {
-        type: "ul",
-        items: [
-          "Signer le contrat du lieu de réception (verser l'acompte)",
-          "Sélectionner et réserver le photographe",
-          "Contacter 3 traiteurs pour des premières propositions",
-          "Réserver le DJ ou le groupe de musique",
-          "Prendre un premier rendez-vous en mairie pour la publication des bans (si mariage civil)",
-        ],
+        text: "Avant de signer, demandez un devis « tout compris » sur la base de votre nombre d'invités confirmé, avec les extras listés séparément. Vous aurez une vision juste du coût réel.",
       },
       {
         type: "callout",
-        text: "Sur les devis traiteur : ne signez rien avant d'avoir lu les clauses d'annulation, les conditions de service et ce qui est réellement inclus. C'est là que se cachent la majorité des mauvaises surprises.",
-      },
-      {
-        type: "h2",
-        text: "J-8 mois : les détails qui prennent du temps",
-      },
-      {
-        type: "p",
-        text: "Les tenues de mariage demandent plusieurs essayages et des délais de confection qui surprennent toujours les mariées. Certaines robes nécessitent 6 à 8 mois de fabrication. Ne remettez pas cette étape à plus tard.",
-      },
-      {
-        type: "ul",
-        items: [
-          "Commencer les visites en boutiques de robes et prendre les premières commandes",
-          "Décider du concept de décoration et contacter les fleuristes",
-          "Choisir le modèle d'alliance et passer commande (délai : 4 à 12 semaines selon le bijoutier)",
-          "Définir le style de la papeterie : faire-part, menus, plan de table",
-          "Réserver la lune de miel (les meilleures disponibilités partent tôt)",
-        ],
-      },
-      {
-        type: "h2",
-        text: "J-6 mois : finaliser les contrats et le menu",
-      },
-      {
-        type: "p",
-        text: "C'est le moment de transformer les discussions en contrats signés. Si vous hésitez encore sur un prestataire, demandez-vous pourquoi — et tranchez. Un contrat non signé à J-6 mois est une disponibilité que vous perdrez.",
-      },
-      {
-        type: "ul",
-        items: [
-          "Signer les contrats traiteur, fleuriste, photographe, DJ",
-          "Dégustation avec le traiteur et validation du menu",
-          "Envoyer les faire-part (les invités ont besoin de 4 à 6 mois pour organiser leur venue)",
-          "Ouvrir la liste de mariage",
-          "Réserver l'hébergement pour les invités qui viennent de loin",
-        ],
-      },
-      {
-        type: "h2",
-        text: "J-4 mois : affiner et confirmer",
-      },
-      {
-        type: "ul",
-        items: [
-          "Collecter les confirmations de présence (date limite de réponse à préciser sur les faire-part)",
-          "Établir un premier plan de table",
-          "Dernier essayage de la robe (et prévoir l'avant-dernier aussi)",
-          "Confirmer les arrhes restants aux prestataires selon leurs échéances",
-          "Préparer la liste des morceaux clés pour le DJ : entrée des mariés, premier dance, fin de soirée",
-        ],
-      },
-      {
-        type: "h2",
-        text: "J-2 mois : les finitions",
-      },
-      {
-        type: "ul",
-        items: [
-          "Finaliser le plan de table avec les confirmations définitives",
-          "Préparer les discours (ou briefer les témoins qui en font un)",
-          "Commander les cadeaux pour les invités si vous en prévoyez",
-          "Organiser les transports (navettes hôtel ↔ lieu)",
-          "Prévoir un plan B météo si le cocktail est prévu en extérieur",
-        ],
-      },
-      {
-        type: "h2",
-        text: "J-1 mois : tout mettre par écrit",
-      },
-      {
-        type: "p",
-        text: "C'est le moment de produire le rétroplanning détaillé du Jour J — heure par heure. Ce document est votre outil de coordination : il doit être envoyé à tous les prestataires avant le Jour J.",
-      },
-      {
-        type: "ul",
-        items: [
-          "Écrire le déroulé du Jour J heure par heure (préparatifs → cérémonie → cocktail → dîner → soirée)",
-          "Envoyer ce déroulé à tous les prestataires",
-          "Confirmer les horaires d'arrivée et de montage avec le lieu et le traiteur",
-          "Préparer les enveloppes de règlement pour les prestataires payés le Jour J",
-          "Constituer un kit d'urgence : épingles, colle, anti-tache, analgésique, chargeur, bas de rechange",
-        ],
-      },
-      {
-        type: "h2",
-        text: "J-15 jours : les confirmations finales",
-      },
-      {
-        type: "ul",
-        items: [
-          "Appeler chaque prestataire pour reconfirmer les horaires",
-          "Vérifier que le solde de chaque contrat est bien réglé ou planifié",
-          "Remettre le plan de table final au traiteur",
-          "Briefer les témoins sur leur rôle logistique le Jour J",
-        ],
-      },
-      {
-        type: "h2",
-        text: "J-7 jours : la semaine d'avant",
-      },
-      {
-        type: "ul",
-        items: [
-          "Dernière visite du lieu avec la coordinatrice si vous avez un prestataire",
-          "Préparer et remettre les tenues et accessoires au lieu si stockage prévu",
-          "Vérifier la météo et activer le plan B si besoin",
-          "Se reposer. Sérieusement.",
-        ],
-      },
-      {
-        type: "h2",
-        text: "J-0 : vous n'avez plus qu'à profiter",
-      },
-      {
-        type: "p",
-        text: "Si tout le travail des 12 mois précédents a été fait, le Jour J ne demande qu'une seule chose de votre part : être présent. La logistique doit être invisible pour vous. C'est exactement ce qu'une coordinatrice Jour J garantit.",
-      },
-      {
-        type: "callout",
-        text: "Vous avez tout organisé mais vous ne voulez pas gérer la logistique le Jour J ? C'est exactement le périmètre de la prestation Coordination Jour J. On reprend votre rétroplanning, on vérifie chaque point avec les prestataires, et on est là de la première heure à la dernière.",
+        text: "Je relis les devis traiteur avec vous dans le cadre des prestations L'Essentiel et Clé en Main. Si vous êtes en prestation Jour J uniquement et voulez un second regard avant de signer, contactez-moi — j'offre une relecture ponctuelle sur devis.",
       },
     ],
   },
-
 ];

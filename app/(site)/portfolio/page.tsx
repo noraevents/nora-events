@@ -40,7 +40,7 @@ export default function PortfolioPage() {
 
       <CtaBandeau
         titre="Votre mariage sera la prochaine étude de cas."
-        texte="La première à faire confiance est la première à en bénéficier — tarif de lancement et attention maximale."
+        texte="La première à faire confiance est la première à en bénéficier : tarif de lancement et attention maximale."
         ctaLabel="Contacter Nora"
         ctaHref="/contact"
         variant="anthracite"

@@ -17,7 +17,7 @@ export default function MentionsLegalesPage() {
             <p>Nom : Nora [Nom de famille à compléter]</p>
             <p>Forme juridique : Auto-entreprise</p>
             <p>SIRET : [À compléter après immatriculation]</p>
-            <p>Adresse : Sur rendez-vous — Normandie & Île-de-France</p>
+            <p>Adresse : Sur rendez-vous, Normandie et Île-de-France</p>
             <p>Email : <a href="mailto:contact@noraevents.fr" className="text-terracotta hover:underline">contact@noraevents.fr</a></p>
             <p>Directeur de publication : Nora [Nom]</p>
           </div>

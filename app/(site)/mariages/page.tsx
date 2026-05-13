@@ -18,15 +18,15 @@ export const metadata: Metadata = {
 const differentiateurs = [
   {
     titre: "Je connais les devis traiteur de l'intérieur",
-    texte: "Je sais ce qui est justifié et ce qui ne l'est pas — parce que j'ai travaillé avec ces prestataires.",
+    texte: "Je sais ce qui est justifié et ce qui ne l'est pas, parce que j'ai travaillé avec ces prestataires.",
   },
   {
     titre: "J'ai géré des imprévus réels le Jour J",
-    texte: "Pas en théorie — en cuisine, en salle, en direct. Je sais comment les résoudre sans que vous le voyiez.",
+    texte: "Pas en théorie. En cuisine, en salle, en direct. Je sais comment les résoudre sans que vous le voyiez.",
   },
   {
     titre: "Mon réseau, je l'ai construit sur le terrain",
-    texte: "Photographes, traiteurs, lieux en Normandie et en IDF — je les connais professionnellement.",
+    texte: "Photographes, traiteurs, lieux en Normandie et en IDF : je les connais professionnellement.",
   },
   {
     titre: "Vous ne gérez rien le Jour J. Littéralement rien.",
@@ -40,7 +40,7 @@ export default function MariagesPage() {
       <section className="bg-beige pt-32 pb-20 px-6">
         <div className="max-w-4xl mx-auto">
           <h1 className="font-display text-5xl lg:text-6xl text-anthracite mb-6 leading-tight">
-            Votre mariage en Normandie ou en IDF — coordonné par quelqu'un qui connaît le terrain.
+            Votre mariage en Normandie ou en IDF, coordonné par quelqu'un qui connaît le terrain.
           </h1>
           <p className="font-body text-lg text-anthracite/70 max-w-2xl mb-10 leading-relaxed">
             De la coordination Jour J au planning intégral, je m'adapte à votre avancement et à

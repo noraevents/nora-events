@@ -32,7 +32,7 @@ export default function TemoignagesPage() {
               Les premiers témoignages arrivent bientôt
             </p>
             <p className="font-body text-anthracite/60 max-w-md mx-auto mb-8 leading-relaxed">
-              Nora Events se lance — soyez parmi les premiers clients et bénéficiez d'une attention
+              Nora Events se lance. Soyez parmi les premiers clients et bénéficiez d'une attention
               maximale et d'un tarif de lancement.
             </p>
             <a

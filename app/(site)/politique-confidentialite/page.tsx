@@ -16,7 +16,7 @@ export default function PolitiqueConfidentialitePage() {
           <div>
             <h2 className="font-display text-2xl text-anthracite mb-3">1. Responsable du traitement</h2>
             <p>
-              Nora Events — contact@noraevents.fr. Toute demande relative à vos données peut être
+              Nora Events, contact@noraevents.fr. Toute demande relative à vos données peut être
               adressée à cette adresse.
             </p>
           </div>

@@ -47,7 +47,7 @@ export default function RetroPlanningPage() {
 
         {/* Sous-titre */}
         <p className="font-body text-anthracite/60 text-center leading-relaxed mb-10 text-base">
-          Le planning complet que j'utilise avec mes clientes — toutes les étapes,
+          Le planning complet que j'utilise avec mes clientes : toutes les étapes,
           dans l'ordre, pour ne rien oublier.
         </p>
 

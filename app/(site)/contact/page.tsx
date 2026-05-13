@@ -19,7 +19,7 @@ export default function ContactPage() {
             <div className="lg:col-span-2">
               <h1 className="font-display text-5xl text-anthracite mb-6 leading-tight">Parlons de votre projet.</h1>
               <p className="font-body text-anthracite/70 leading-relaxed mb-10">
-                Répondez à ces quelques questions — je vous réponds sous 24h avec une proposition
+                Répondez à ces quelques questions. Je vous réponds sous 24h avec une proposition
                 adaptée à votre situation.
               </p>
 

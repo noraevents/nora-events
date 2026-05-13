@@ -58,6 +58,47 @@ export async function sendNotificationToNora(data: {
   });
 }
 
+export async function sendLeadMagnet(email: string, prenom: string): Promise<void> {
+  const pdfUrl = `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://noraevents.fr"}/retroplanning.pdf`;
+
+  await sendEmail({
+    to: [{ email, name: prenom }],
+    subject: "Ton rétroplanning mariage J-12 à J-0 — Nora Events",
+    htmlContent: `
+      <div style="font-family:Georgia,serif;max-width:600px;margin:auto;padding:40px;background:#FAF7F4;color:#2C2C2C">
+        <p style="font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:#C4714A;margin-bottom:24px">
+          Nora Events
+        </p>
+        <h2 style="font-size:30px;font-weight:400;color:#2C2C2C;margin-bottom:16px;line-height:1.2">
+          Bonjour ${prenom},<br>voici ton rétroplanning.
+        </h2>
+        <p style="font-size:16px;line-height:1.7;color:#2C2C2C;opacity:0.7;margin-bottom:28px">
+          C'est le planning que j'utilise avec mes clientes — toutes les étapes de J-12 mois à J-0,
+          dans l'ordre, avec les erreurs à éviter à chaque étape.
+        </p>
+        <a href="${pdfUrl}"
+           style="display:inline-block;background:#C4714A;color:#FAF7F4;padding:16px 32px;text-decoration:none;font-family:sans-serif;font-size:13px;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:36px">
+          Télécharger le rétroplanning →
+        </a>
+        <p style="font-size:14px;line-height:1.7;color:#2C2C2C;opacity:0.5;margin-bottom:8px">
+          Si le bouton ne fonctionne pas, copie ce lien dans ton navigateur :<br>
+          <a href="${pdfUrl}" style="color:#C4714A">${pdfUrl}</a>
+        </p>
+        <hr style="border:none;border-top:1px solid #F2EBE0;margin:32px 0"/>
+        <p style="font-size:14px;color:#5C7A5A;line-height:1.7">
+          À bientôt,<br>
+          <strong>Nora</strong><br>
+          Coordinatrice de mariages — Normandie & IDF
+        </p>
+        <p style="font-size:11px;color:#2C2C2C;opacity:0.3;margin-top:24px">
+          Tu reçois cet email car tu as demandé le rétroplanning gratuit sur noraevents.fr.
+          <a href="#" style="color:#2C2C2C">Se désabonner</a>
+        </p>
+      </div>
+    `,
+  });
+}
+
 export async function sendConfirmationToProspect(email: string, nom: string): Promise<void> {
   await sendEmail({
     to: [{ email, name: nom }],

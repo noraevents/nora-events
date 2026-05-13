@@ -18,7 +18,7 @@ const buttonVariants = cva(
         sauge:
           "bg-sauge text-ivoire hover:bg-sauge-light",
         white:
-          "bg-ivoire !text-anthracite hover:bg-beige border border-beige",
+          "bg-ivoire text-anthracite hover:bg-beige border border-beige",
       },
       size: {
         sm: "px-4 py-2 text-sm rounded-[4px]",

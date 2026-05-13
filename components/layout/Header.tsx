@@ -38,11 +38,24 @@ export function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="font-display text-2xl transition-colors"
-            style={{ color: scrolled ? "#2C2C2C" : "#FAF7F4" }}
+            className="flex items-baseline gap-1.5 transition-colors leading-none"
             aria-label="Nora Events — Accueil"
           >
-            Nora Events
+            <span
+              className="font-display font-500 tracking-[0.18em] uppercase text-xl"
+              style={{ color: scrolled ? "#2C2C2C" : "#FAF7F4" }}
+            >
+              Nora
+            </span>
+            <span
+              className="text-3xl leading-none"
+              style={{
+                fontFamily: "var(--font-script)",
+                color: scrolled ? "#C4714A" : "#FAF7F4",
+              }}
+            >
+              Events
+            </span>
           </Link>
 
           {/* Nav desktop */}

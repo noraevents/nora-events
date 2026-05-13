@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Lato } from "next/font/google";
+import { Cormorant_Garamond, Lato, Great_Vibes } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
@@ -15,6 +15,13 @@ const lato = Lato({
   variable: "--font-dm-sans",
   subsets: ["latin"],
   weight: ["400", "700"],
+  display: "swap",
+});
+
+const greatVibes = Great_Vibes({
+  variable: "--font-script",
+  subsets: ["latin"],
+  weight: ["400"],
   display: "swap",
 });
 
@@ -77,7 +84,7 @@ export default function RootLayout({
   return (
     <html
       lang="fr"
-      className={`${cormorant.variable} ${lato.variable}`}
+      className={`${cormorant.variable} ${lato.variable} ${greatVibes.variable}`}
     >
       <body className="min-h-screen flex flex-col">
         {children}

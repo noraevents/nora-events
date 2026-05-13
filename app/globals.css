@@ -72,3 +72,8 @@ img {
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #F2EBE0; }
 ::-webkit-scrollbar-thumb { background: #C4714A; border-radius: 3px; }
+
+@keyframes fadeOut {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}

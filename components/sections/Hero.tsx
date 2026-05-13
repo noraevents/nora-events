@@ -27,6 +27,10 @@ export function Hero({
         />
         <div className="absolute inset-0 bg-anthracite/40" />
         <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-anthracite/60 to-transparent" />
+        <div
+          className="absolute inset-0 bg-anthracite pointer-events-none z-10"
+          style={{ animation: "fadeOut 1.5s ease-in-out 0.1s forwards" }}
+        />
       </div>
 
       {/* Contenu */}

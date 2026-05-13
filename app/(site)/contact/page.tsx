@@ -61,7 +61,7 @@ export default function ContactPage() {
                   Vous préférez un appel direct ?
                 </p>
                 <a
-                  href="https://calendly.com/noraevents"
+                  href="https://calendly.com/noraevents-contact/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full text-center bg-anthracite text-ivoire py-3 px-4 rounded text-sm font-body hover:bg-anthracite/80 transition-colors"

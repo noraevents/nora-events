@@ -27,7 +27,7 @@ export function ProcessusEtapes() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="font-display text-4xl text-anthracite mb-3">Comment ça se passe</h2>
-          <p className="font-body text-anthracite/70">Simple. Clair. Sans surprise.</p>
+          <p className="font-body text-anthracite/70 text-center">Simple. Clair. Sans surprise.</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0">

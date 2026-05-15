@@ -44,11 +44,24 @@ export default function AProposPage() {
               <Button href="/contact" size="lg">Discutons de votre projet</Button>
             </div>
 
-            {/* Photo placeholder */}
-            <div className="aspect-[3/4] bg-gradient-to-br from-beige to-ivoire rounded-lg flex items-center justify-center border border-beige">
-              <p className="font-display text-5xl text-terracotta/20 text-center px-8">
-                Photo de Nora<br />en situation de coordination
-              </p>
+            {/* Bloc chiffres */}
+            <div className="aspect-[3/4] bg-anthracite rounded-lg flex flex-col justify-between p-10">
+              <p className="font-display text-ivoire/30 text-7xl leading-none select-none">"</p>
+              <div className="space-y-8">
+                <div>
+                  <p className="font-display text-6xl text-terracotta leading-none">~200</p>
+                  <p className="font-body text-ivoire/70 text-sm mt-1">mariages vécus de l'intérieur</p>
+                </div>
+                <div>
+                  <p className="font-display text-6xl text-terracotta leading-none">5 ans</p>
+                  <p className="font-body text-ivoire/70 text-sm mt-1">en maître d'hôtel terrain</p>
+                </div>
+                <div>
+                  <p className="font-display text-6xl text-terracotta leading-none">2</p>
+                  <p className="font-body text-ivoire/70 text-sm mt-1">régions — Normandie & IDF</p>
+                </div>
+              </div>
+              <p className="font-display text-ivoire/20 text-sm uppercase tracking-widest">Nora Events</p>
             </div>
           </div>
         </div>

@@ -79,7 +79,7 @@ export default function MethodePage() {
             Ce que vous devez faire, dans quel ordre, et pourquoi.
           </p>
           <a
-            href="/contact"
+            href="/retroplanning"
             className="inline-block bg-terracotta text-ivoire px-8 py-4 rounded font-body font-medium hover:bg-terracotta-light transition-colors"
           >
             Recevoir le PDF gratuit

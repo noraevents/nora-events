@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { CtaBandeau } from "@/components/sections/CtaBandeau";
 import { Button } from "@/components/ui/Button";
 
@@ -44,24 +45,16 @@ export default function AProposPage() {
               <Button href="/contact" size="lg">Discutons de votre projet</Button>
             </div>
 
-            {/* Bloc chiffres */}
-            <div className="aspect-[3/4] bg-anthracite rounded-lg flex flex-col justify-between p-10">
-              <p className="font-display text-ivoire/30 text-7xl leading-none select-none">"</p>
-              <div className="space-y-8">
-                <div>
-                  <p className="font-display text-6xl text-terracotta leading-none">~200</p>
-                  <p className="font-body text-ivoire/70 text-sm mt-1">mariages vécus de l'intérieur</p>
-                </div>
-                <div>
-                  <p className="font-display text-6xl text-terracotta leading-none">5 ans</p>
-                  <p className="font-body text-ivoire/70 text-sm mt-1">en maître d'hôtel terrain</p>
-                </div>
-                <div>
-                  <p className="font-display text-6xl text-terracotta leading-none">2</p>
-                  <p className="font-body text-ivoire/70 text-sm mt-1">régions — Normandie & IDF</p>
-                </div>
-              </div>
-              <p className="font-display text-ivoire/20 text-sm uppercase tracking-widest">Nora Events</p>
+            {/* Photo */}
+            <div className="aspect-[3/4] relative rounded-lg overflow-hidden">
+              <Image
+                src="/images/nora-coordination.jpg"
+                alt="Nora en situation de coordination, vérifiant le dressage d'une table de mariage"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                priority
+              />
             </div>
           </div>
         </div>

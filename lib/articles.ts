@@ -19,6 +19,121 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "wedding-planner-ou-coordination-jour-j",
+    titre: "Wedding planner ou coordination jour J : quelle différence ?",
+    metaDescription:
+      "Vous hésitez entre un wedding planner intégral et une coordination jour J ? Voici les différences concrètes, ce que chaque prestation comprend vraiment, et comment choisir selon votre situation.",
+    categorie: "Organisation",
+    datePublication: "2026-05-15",
+    tempsLecture: "6 min",
+    extrait:
+      "C'est la question que posent presque toutes les futures mariées. La réponse dépend d'où vous en êtes dans votre organisation — et de ce que vous voulez vraiment déléguer.",
+    sections: [
+      {
+        type: "p",
+        text: "Quand on commence à chercher de l'aide pour organiser son mariage, on tombe vite sur deux termes qui semblent interchangeables : wedding planner et coordinatrice jour J. Ils ne le sont pas. Ce sont deux prestations très différentes, avec des niveaux d'implication opposés et des prix qui ne se comparent pas. Voici comment choisir.",
+      },
+      {
+        type: "h2",
+        text: "Ce que fait une coordinatrice jour J",
+      },
+      {
+        type: "p",
+        text: "La coordination jour J part du principe que vous avez déjà tout organisé : le lieu est réservé, les prestataires sont signés, le menu est choisi. Vous avez fait le travail. Ce que vous déléguez, c'est l'exécution.",
+      },
+      {
+        type: "p",
+        text: "Concrètement, une coordinatrice jour J prend le relais quelques semaines avant l'événement — souvent entre J-30 et J-14. Elle reprend votre rétroplanning, vérifie les confirmations auprès de chaque prestataire, s'assure que tout le monde a la même version du programme. Le jour de votre mariage, elle est sur place de 7h du matin à la fin du dîner. Elle gère les retards, les imprévus, les conflits de timing. Vous n'avez rien à faire.",
+      },
+      {
+        type: "callout",
+        text: "Ce n'est pas une prestation au rabais. C'est une prestation adaptée à des couples organisés qui ont simplement besoin que quelqu'un d'expérimenté prenne les commandes le jour J.",
+      },
+      {
+        type: "h2",
+        text: "Ce que fait un wedding planner intégral",
+      },
+      {
+        type: "p",
+        text: "Un wedding planner intégral intervient dès le début — souvent dès les fiançailles, parfois à J-12 mois. Il vous accompagne sur toutes les décisions : le choix du lieu, la sélection des prestataires, la négociation des contrats, le concept visuel, le budget global. Il est présent à vos côtés tout au long du processus, pas uniquement le jour J.",
+      },
+      {
+        type: "p",
+        text: "Ce niveau d'accompagnement est utile si vous partez de zéro, si vous n'avez pas le temps de vous occuper de l'organisation, ou si vous voulez que quelqu'un d'autre porte la charge mentale de la préparation.",
+      },
+      {
+        type: "h2",
+        text: "La différence en pratique : un tableau clair",
+      },
+      {
+        type: "ul",
+        items: [
+          "Coordination jour J — vous avez tout organisé, elle exécute. Intervention à J-30 / J-14 puis le jour J complet.",
+          "Planning partiel (4 derniers mois) — elle reprend le dossier à mi-chemin, relecture des devis, coordination prestataires, rétroplanning. Intervention de J-120 à J-0.",
+          "Planning intégral — elle part avec vous de zéro. De J-12 mois à J-0, toutes les décisions sont prises ensemble.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Comment choisir selon votre situation",
+      },
+      {
+        type: "h3",
+        text: "Choisissez la coordination jour J si :",
+      },
+      {
+        type: "ul",
+        items: [
+          "Vous avez déjà réservé le lieu et signé vos prestataires principaux",
+          "Vous aimez organiser et avez suivi de près chaque détail",
+          "Vous voulez pouvoir profiter de votre jour sans gérer les imprévus",
+          "Votre budget est plus serré",
+        ],
+      },
+      {
+        type: "h3",
+        text: "Choisissez un planning partiel ou intégral si :",
+      },
+      {
+        type: "ul",
+        items: [
+          "Vous n'avez pas encore de lieu ni de prestataires",
+          "Vous manquez de temps pour vous en occuper",
+          "Vous voulez un regard extérieur sur les devis avant de signer",
+          "L'organisation vous génère du stress plutôt que du plaisir",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Un point sur les prix",
+      },
+      {
+        type: "p",
+        text: "En France, une coordination jour J de qualité se situe généralement entre 1 500 et 2 500 euros selon la région et le niveau d'expérience. Un planning intégral se situe plutôt entre 3 500 et 8 000 euros. Ce n'est pas le même budget, ni le même besoin.",
+      },
+      {
+        type: "p",
+        text: "Ce qui compte, c'est de ne pas choisir en fonction du prix uniquement. Une coordination jour J peu chère confiée à quelqu'un qui manque d'expérience terrain peut coûter très cher le jour J — en stress, en imprévus mal gérés, en prestataires qui se retrouvent sans interlocuteur.",
+      },
+      {
+        type: "callout",
+        text: "Chez Nora Events, je propose les deux niveaux d'accompagnement — du Jour J Serein (à partir de 1 800 €) au Clé en Main (à partir de 4 000 €). Si vous ne savez pas où vous en êtes, un appel de 30 minutes suffit à clarifier ce dont vous avez vraiment besoin.",
+      },
+      {
+        type: "h2",
+        text: "La question que peu de gens posent",
+      },
+      {
+        type: "p",
+        text: "Au-delà du niveau d'implication, ce qui fait la différence, c'est l'expérience terrain de la personne que vous choisissez. Quelqu'un qui a passé 5 ans en maître d'hôtel à travailler aux côtés des traiteurs, des chefs de rang et des régisseurs ne gère pas une journée de la même façon qu'une personne formée uniquement en théorie.",
+      },
+      {
+        type: "p",
+        text: "Le jour J, les imprévus ne préviennent pas. Ce qui compte, c'est de savoir les résoudre en 30 secondes sans que vous le voyiez. Ça s'apprend sur le terrain, pas dans un manuel.",
+      },
+    ],
+  },
+  {
     slug: "erreurs-devis-traiteur-mariage",
     titre: "5 erreurs sur les devis traiteur (et comment les éviter)",
     metaDescription:

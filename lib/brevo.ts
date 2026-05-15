@@ -58,6 +58,27 @@ export async function sendNotificationToNora(data: {
   });
 }
 
+export async function addContactBrevo(email: string, prenom: string): Promise<void> {
+  const listId = process.env.BREVO_LIST_ID ? parseInt(process.env.BREVO_LIST_ID) : null;
+
+  const body: Record<string, unknown> = {
+    email,
+    attributes: { PRENOM: prenom },
+    updateEnabled: true,
+  };
+
+  if (listId) body.listIds = [listId];
+
+  await fetch("https://api.brevo.com/v3/contacts", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "api-key": process.env.BREVO_API_KEY ?? "",
+    },
+    body: JSON.stringify(body),
+  });
+}
+
 export async function sendLeadMagnet(email: string, prenom: string): Promise<void> {
   const pdfUrl = `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://noraevents.fr"}/retroplanning.pdf`;
 

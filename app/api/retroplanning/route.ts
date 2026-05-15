@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
-import { sendLeadMagnet } from "@/lib/brevo";
+import { sendLeadMagnet, addContactBrevo } from "@/lib/brevo";
 
 const schema = z.object({
   prenom: z.string().min(1).max(100),
@@ -29,6 +29,11 @@ export async function POST(req: NextRequest) {
     console.error("Erreur envoi lead magnet:", err);
     return NextResponse.json({ ok: true, warning: "Email non envoyé" }, { status: 200 });
   }
+
+  // Enregistrement contact en arrière-plan — on n'attend pas le résultat
+  addContactBrevo(email, prenom).catch((err) =>
+    console.error("Erreur ajout contact Brevo:", err)
+  );
 
   return NextResponse.json({ ok: true }, { status: 200 });
 }

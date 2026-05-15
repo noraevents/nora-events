@@ -19,7 +19,7 @@ export default function HomePage() {
     <>
       <Hero
         titre="Le jour J, vous profitez. Je gère tout."
-        sousTitre="Coordinatrice de mariages en Normandie et en Île-de-France, formée par 5 ans de terrain aux côtés des traiteurs."
+        sousTitre="Mariages, baptêmes, anniversaires — coordinatrice d'événements en Normandie et en Île-de-France, formée par 5 ans de terrain aux côtés des traiteurs."
         ctaPrincipal={{ label: "Demander un devis gratuit", href: "/contact" }}
         ctaSecondaire={{ label: "Découvrir la méthode", href: "/methode" }}
       />
@@ -35,7 +35,7 @@ export default function HomePage() {
             J'ai passé 5 ans en maître d'hôtel dans des domaines et restaurants gastronomiques normands
             et parisiens, à coordonner, anticiper, gérer les imprévus en temps réel.{" "}
             <span className="text-terracotta font-medium">
-              Le jour J, je ne découvre pas votre mariage. Je l'ai préparé avec vous depuis des mois.
+              Mariage, baptême ou anniversaire — le jour J, je ne découvre pas votre événement. Je l'ai préparé avec vous depuis des mois.
             </span>
           </p>
           <Button href="/methode" variant="ghost" className="mt-6">
@@ -52,7 +52,8 @@ export default function HomePage() {
 
 
       <CtaBandeau
-        titre="Votre mariage mérite quelqu'un qui connaît les coulisses."
+        titre="Votre événement mérite quelqu'un qui connaît les coulisses."
+        texte="Mariage, baptême, anniversaire — un appel de 30 minutes pour voir si je peux vous aider."
         ctaLabel="Prendre rendez-vous gratuitement"
         ctaHref="/contact"
       />
